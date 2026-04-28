@@ -89,7 +89,7 @@ const FeaturedProducts = () => {
                    </h3>
                    
                    <p className="text-[10px] md:text-[11px] text-slate-500 font-medium line-clamp-2 leading-tight uppercase tracking-widest opacity-60">
-                      {item.category || "Premium Solution"}
+                      {item.subcategory || item.category || "Premium Solution"}
                    </p>
                 </div>
               </Link>
